@@ -29,6 +29,10 @@ body{
 }
 .container-fluid {
   background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+.row {
+  margin-bottom: 20px;
 }
 /* p{
   font-family: "Lucida Sans Unicode", Verdana, Arial, serif;
@@ -65,7 +69,7 @@ body{
 }
 #info{
   color: black;
-  background-color: blue; */ 
+  background-color: blue; */
   /* display: block; */
   /* float: right;
   display: inline-block;
