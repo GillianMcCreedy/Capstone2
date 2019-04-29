@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <!-- This should have been edited -->
-    <!-- <script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script> -->
+    <!-- AFrame script -->
     <script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script>
 
-    <!-- Use components defined in separate files. -->
+    <!-- JS files to manage the scene -->
     <script src="arrow-key-rotation.js"></script>
     <script src="play-on-window-click.js"></script>
     <script src="play-on-vrdisplayactivate-or-enter-vr.js"></script>
     <script src="hide-once-playing.js"></script>
 
-    <!-- Specify our scene. -->
+    <!-- Define the scene. -->
     <a-scene>
-      <!-- The original example also has this 180 degree rotation, to appear to be going forward. -->
-      <a-videosphere rotation="0 180 0" src="#video"
+      <a-videosphere rotation="0 0 0" src="#video"
                      play-on-window-click
                      play-on-vrdisplayactivate-or-enter-vr>
       </a-videosphere>
@@ -42,9 +40,5 @@
       </a-assets>
     </a-scene>
 
-    <!-- Show a button to switch to the multi-source example that shows detail. -->
-    <!-- <button onClick="window.location.href='multi-source-detail.html'" style="position:absolute;top:10px;right:10px;">
-      Switch to multi-source detail example
-    </button> -->
   </body>
 </html>
