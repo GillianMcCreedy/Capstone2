@@ -13,6 +13,7 @@ h1{
   /* width: 900px; */
 }
 h2{
+  font-family: "Lucida Sans Unicode", Verdana, Arial, serif;
   color: #275612;
 }
 h3{
@@ -31,8 +32,10 @@ body{
   margin: 50px auto;
 }
 .container-fluid {
+  text-align: center;
   background: rgba(0, 0, 0, 0.5);
   padding: 10px;
+  padding-left: 50px;
 }
 .row {
   text-align: center;
@@ -44,7 +47,10 @@ body{
   height: auto;
 }
 .img-fluid:hover {
-  opacity: 0.5;
+  opacity: 0.8;
+}
+#footer {
+  background: rgba(0, 0, 0, 0)
 }
 /* p{
   font-family: "Lucida Sans Unicode", Verdana, Arial, serif;
