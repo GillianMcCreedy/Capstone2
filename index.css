@@ -12,9 +12,12 @@ h1{
   margin-top: 0px; */
   /* width: 900px; */
 }
-h2,h3{
-  font-family: "Lucida Sans Unicode", Verdana, Arial, serif;
+h2{
   color: #275612;
+}
+h3{
+  font-family: "Lucida Sans Unicode", Verdana, Arial, serif;
+  color: white;
 }
 body{
   /* margin-left: 25px; */
@@ -37,7 +40,7 @@ body{
 }
 .img-fluid {
   text-align: center;
-  max-width: 1100px;
+  max-width: 900px;
   height: auto;
 }
 .img-fluid:hover {
