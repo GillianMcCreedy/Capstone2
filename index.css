@@ -51,6 +51,9 @@ body{
 #footer {
   background: rgba(0, 0, 0, 0)
 }
+.col {
+  text-align: center;
+}
 /* p{
   font-family: "Lucida Sans Unicode", Verdana, Arial, serif;
   color: white;
