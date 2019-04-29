@@ -1,0 +1,89 @@
+/*CSS stylesheet for the index.html page*/
+.hidden {
+  display: none;
+}
+h1{
+  font-family: "Lucida Sans Unicode", Verdana, Arial, serif;
+  font-size: 50pt;
+  color: #82b74b;
+  /* padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px; */
+  text-align: center;
+  /* width: 900px; */
+}
+h2,h3{
+  font-family: "Lucida Sans Unicode", Verdana, Arial, serif;
+  color: white;
+}
+body{
+  /* margin-left: 25px; */
+  background-image: url("Pics/joe-woods-739738-unsplash.jpg");
+  /* background-size:2000px; */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.container {
+  background: rgba(0, 0, 0, 0.5);
+  margin: 50px auto;
+}
+.container-fluid {
+  background: rgba(0, 0, 0, 0.5);
+}
+/* p{
+  font-family: "Lucida Sans Unicode", Verdana, Arial, serif;
+  color: white;
+}
+/* #outer{
+  width:auto;
+  margin-left: auto;
+  margin-right: auto;
+} */
+/* #inner{
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  margin:0 auto;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+}
+#menu{
+  color: black;
+  background-color: green;
+  display: block;
+  float: left;
+  width: 250px;
+  padding-right: 10px;
+  text-align: left;
+}
+#video{
+  color: black;
+  background-color: black;
+  display: inline-block;
+  width: 650px;
+  height: 450px;
+}
+#info{
+  color: black;
+  background-color: blue; */ 
+  /* display: block; */
+  /* float: right;
+  display: inline-block;
+  width: 250px;
+  padding: 10px;
+  text-align: left;
+}
+#textblock{
+  float: bottom;
+  text-align: center;
+}
+pre{
+  color: white;
+}
+a{
+  color: white;
+  text-decoration: underline;
+} */
+.lighten:hover{
+  opacity:0.5;
+}
