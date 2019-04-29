@@ -33,6 +33,11 @@ body{
 }
 .row {
   margin-bottom: 20px;
+  text-align: center;
+}
+.img-fluid {
+  max-width: 80%;
+  height: auto;
 }
 /* p{
   font-family: "Lucida Sans Unicode", Verdana, Arial, serif;
