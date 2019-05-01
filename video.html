@@ -5,7 +5,6 @@
     <script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script>
 
     <!-- JS files to manage the scene -->
-    <!-- <script src="arrow-key-rotation.js"></script> -->
     <script src="play-on-window-click.js"></script>
     <script src="play-on-vrdisplayactivate-or-enter-vr.js"></script>
     <script src="hide-once-playing.js"></script>
@@ -17,23 +16,12 @@
                      play-on-vrdisplayactivate-or-enter-vr>
       </a-videosphere>
 
-      <!-- Define camera with zero user height, movement disabled and arrow key rotation added. -->
-      <!-- <a-camera user-height="0" wasd-controls-enabled="false" arrow-key-rotation> -->
-        <!-- Text element for display messaging.  Hide once video is playing. -->
-        <!-- <a-entity id="msg" position="0 -0.3 -1.5" text="align:center;
-                width:3;
-                wrapCount:100;
-                color:red;
-                value: "
-                hide-once-playing="#video">
-        </a-entity>
-      </a-camera> -->
 
       <!-- Wait for the video to load. -->
       <a-assets>
         <!-- Single source video. -->
         <video id="hub" style="display:none"
-               autoplay loop crossorigin="anonymous" playsinline webkit-playsinline>
+               autoplay="false" loop crossorigin="anonymous" playsinline webkit-playsinline>
           <!-- MP4 video source. -->
           <source type="video/mp4" src="Videos_Compressed/1HUBGuide.mp4" />
         </video>
