@@ -14,6 +14,17 @@ body, html{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  /* contain the text */
+  position: relative;
+  text-align: center;
+  color: rgba(0, 0, 0, 0);
+}
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .bg {
   -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
