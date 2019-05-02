@@ -8,7 +8,7 @@ body, html{
   background-repeat: no-repeat;
   background-attachment: fixed; */
 }
-.bg {
+.psu {
   background-image: url("Pics/PSU.jpg");
   height: 100%;
   background-position: center;
