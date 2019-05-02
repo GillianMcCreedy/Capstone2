@@ -2,13 +2,14 @@
 body {
   /* -webkit-filter: blur(5px);
   filter: blur(5px); */
-  /* height: 100%;
-  background-image: url("Pics/chua.jpg");
+  width: 100%;
+  height: auto;
+  background-image: url("Pics/nordwood.jpg");
   background-position: center;
   background-size:cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;  */
-  background-color: rgb(182,200,194);
+  background-attachment: fixed;
+  /* background-color: rgb(182,200,194); */
 }
 .header-img {
   position: relative;
@@ -51,7 +52,7 @@ h1{
   text-align: center;
   /* font-family: "Lucida Sans Unicode", Verdana, Arial, serif; */
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 45pt;
+  font-size: 40pt;
   /* color: #82b74b; */
   color: rgb(6,42,28);
   padding: 25px;
@@ -59,6 +60,7 @@ h1{
 h2{
   font-family: "Lucida Sans Unicode", Verdana, Arial, serif;
   color: rgb(181,189,52);
+  /* color: white; */
 }
 h3{
   font-family: "Lucida Sans Unicode", Verdana, Arial, serif;
