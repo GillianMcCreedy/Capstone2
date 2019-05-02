@@ -58,11 +58,14 @@ h1{
 }
 h2{
   font-family: "Lucida Sans Unicode", Verdana, Arial, serif;
-  color: #275612;
+  color: rgb(181,189,52);
 }
 h3{
   font-family: "Lucida Sans Unicode", Verdana, Arial, serif;
   color: white;
+}
+span {
+  content: "\00B0";
 }
 .container {
   /* background: rgba(0, 0, 0, 0.3); */
