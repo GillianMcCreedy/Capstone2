@@ -1,4 +1,20 @@
 /*CSS stylesheet for the index.html page*/
+body, html{
+  height: 100%;
+  /* margin-left: 25px;
+  background-image: url("Pics/joe-woods-739738-unsplash.jpg");
+  background-image: url("Pics/PSU.jpg");
+  background-size:2000px;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+}
+.bg {
+  background-image: url("Pics/PSU.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .hidden {
   display: none;
 }
@@ -19,14 +35,6 @@ h2{
 h3{
   font-family: "Lucida Sans Unicode", Verdana, Arial, serif;
   color: white;
-}
-body{
-  /* margin-left: 25px; */
-  /* background-image: url("Pics/joe-woods-739738-unsplash.jpg"); */
-  background-image: url("Pics/PSU.jpg");
-  /* background-size:2000px; */
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 .container {
   /* background: rgba(0, 0, 0, 0.3); */
