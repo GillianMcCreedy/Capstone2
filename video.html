@@ -16,6 +16,17 @@
                      play-on-vrdisplayactivate-or-enter-vr>
       </a-videosphere>
 
+      <!-- Define camera with zero user height, movement disabled and arrow key rotation added. -->
+      <a-camera user-height="0" wasd-controls-enabled="false" arrow-key-rotation>
+        <!-- Text element for display messaging.  Hide once video is playing. -->
+        <a-entity id="msg" position="0 -0.3 -1.5" text="align:center;
+                width:3;
+                wrapCount:100;
+                color:red;
+                value: "
+                hide-once-playing="#video">
+        </a-entity>
+      </a-camera>
 
       <!-- Wait for the video to load. -->
       <a-assets>
@@ -27,6 +38,10 @@
         </video>
       </a-assets>
     </a-scene>
+
+    <button onClick="window.location.href='multi-source-detail.html'" style="position:absolute;top:10px;right:10px;">
+      Switch
+    </button>
 
   </body>
 </html>
