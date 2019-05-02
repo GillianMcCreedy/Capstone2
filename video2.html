@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <!-- AFrame script -->
+    <script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script>
+
+    <!-- JS files to manage the scene -->
+    <script src="play-on-window-click.js"></script>
+    <script src="play-on-vrdisplayactivate-or-enter-vr.js"></script>
+    <!-- <script src="hide-once-playing.js"></script> -->
+
+    <!-- Define the scene. -->
+    <a-scene>
+      <a-videosphere rotation="0 0 0" src="#rounds"
+                     play-on-window-click
+                     play-on-vrdisplayactivate-or-enter-vr>
+      </a-videosphere>
+
+
+      <!-- Wait for the video to load. -->
+      <a-assets>
+        <!-- Single source video. -->
+        <video id="rounds" style="display:none"
+               autoplay="false" loop crossorigin="anonymous" playsinline webkit-playsinline>
+          <!-- MP4 video source. -->
+          <source type="video/mp4" src="Videos_Compressed/3RoundsGuide.mp4" />
+        </video>
+      </a-assets>
+    </a-scene>
+
+  </body>
+</html>
