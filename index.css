@@ -1,9 +1,9 @@
 /*CSS stylesheet for the index.html page*/
 body {
-  -webkit-filter: blur(5px);
-  filter: blur(5px);
+  /* -webkit-filter: blur(5px);
+  filter: blur(5px); */
   height: 100%;
-  background-image: url("Pics/PSU.jpg");
+  background-image: url("Pics/chua.jpg");
   background-position: center;
   background-size:cover;
   background-repeat: no-repeat;
